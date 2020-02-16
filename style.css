@@ -1,0 +1,121 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+header {
+	background-color: #F15B31;
+	font-color: #FFFFFF;
+	padding: 30PX 20PX 30PX 20PX;
+}
+nav {
+	background-color: #00A6B3;
+	font-color: #FFFFFF;
+	padding: 20px 0 20px 0;
+	border-bottom: 2px solid transparent;
+}
+
+a {
+	margin: 0 20px 0 20px;
+	font-color: #FFFFFF;
+	
+}
+.menu:hover {
+    color: white;
+    
+}
+h1 {
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1PX;
+	font-weight: 400;
+	font-size: 45PX
+	text-transform: uppercase;
+	margin: 0;
+}
+h2 {
+	font-family: "Raleway", sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1PX;
+	font-size: 18PX;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+main {
+	width: 850px;
+	margin: 35px auto 35px auto;
+
+}
+p {
+
+	font-family: "Droid Serif", Serif;
+	line-height: 26PX;
+	font-size: 18PX;
+
+}
+.lstcent{
+	text-align: center;
+	font-family: "Droid Serif", Serif;
+	line-height: 26PX;
+	font-size: 18PX;
+
+}
+ul {
+	display: inline-block;
+	text-align: left;
+	list-style: none; /* it removes the bullets from ul */
+}
+#centering {
+	text-align: center;
+}
+img {
+	margin: 40px 8px 0 8px;
+}
+.menu {
+    text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	color: #F15B31;
+	letter-spacing: 1PX;
+	font-weight: 600;
+	font-size: 14PX;
+}
+
+.prgmgame {
+	text-decoration: none; 
+	text-transform: uppercase;
+}
+.imageslooks {
+
+	text-align: center;
+}
+footer {
+	text-transform: uppercase;
+	padding: 0 20px 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+.copyright{
+	display: "Raleway", sans-serif;
+	float: left;
+
+}
+.message {
+	display: "Raleway", sans-serif;
+	float: right;
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name{
+	color: #F15B31;
+	font-weight: 700;
+}
