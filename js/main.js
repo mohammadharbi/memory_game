@@ -24,12 +24,17 @@ const cards = [
 ];
 
 const cardsInPlay = [];
-
+var score = 0;
 function checkForMatch()
 {
+	
 	if (cardsInPlay [0] === cardsInPlay[1])
 	{
+		score += 1;
 		alert("You found a match!");
+		var total = document.getElementById('result');
+		total.innerHTML = score;
+		
 	} else {
 		alert("Sorry, try again");
 	}
@@ -60,6 +65,8 @@ function createBoard()
 		document.getElementById('game-board').appendChild(cardElement);
 	}
 }
+function myFunction(){location.reload();}
+
 
 createBoard();
 
